@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050510">
+  <title>YAMA HUMAN VISION AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">Y</div>
+      <div>
+        <h1>YAMA <span>VISION</span></h1>
+        <p>HUMAN INTELLIGENCE SYSTEM</p>
+      </div>
+    </div>
+    <div class="system-status">
+      <span class="pulse"></span> SYSTEM READY
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">NEXT GENERATION COMPUTER VISION</p>
+      <h2>HUMAN <span>VISION</span> AI</h2>
+      <p class="subtitle">
+        REAL-TIME VISUAL INTELLIGENCE PLATFORM
+      </p>
+    </section>
+
+    <section class="dashboard">
+      <div class="section-heading">
+        <span>01 / LIVE SURVEILLANCE</span>
+        <span class="live-label">● LIVE SYSTEM</span>
+      </div>
+
+      <div class="camera">
+        <video id="camera" autoplay playsinline muted></video>
+        <canvas id="overlay"></canvas>
+
+        <div class="scan-line"></div>
+        <div class="corner tl"></div>
+        <div class="corner tr"></div>
+        <div class="corner bl"></div>
+        <div class="corner br"></div>
+
+        <div class="camera-label">YAMA CAM // 001</div>
+        <div id="status" class="camera-status">
+          CAMERA OFFLINE
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="startCamera" class="btn-primary">
+          ▶ START CAMERA
+        </button>
+        <button id="stopCamera" class="btn-secondary">
+          ■ STOP CAMERA
+        </button>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat-card">
+        <span class="stat-label">DETECTED OBJECTS</span>
+        <strong id="objectCount">0</strong>
+        <small>OBJECT COUNT</small>
+      </div>
+
+      <div class="stat-card">
+        <span class="stat-label">AI ENGINE</span>
+        <strong class="engine">READY</strong>
+        <small>DETECTION MODEL PENDING</small>
+      </div>
+
+      <div class="stat-card">
+        <span class="stat-label">CAMERA MODE</span>
+        <strong class="engine">LIVE</strong>
+        <small>IPHONE CAMERA</small>
+      </div>
+    </section>
+
+    <section class="results">
+      <div class="section-heading">
+        <span>02 / ANALYSIS DATA</span>
+        <span>YAMA CORE</span>
+      </div>
+      <ul id="objectList">
+        <li>Waiting for camera input...</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>YAMA AI SECURITY & VISION TECHNOLOGY</p>
+      <p>CYBERPUNK EDITION // VERSION 1.0</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
