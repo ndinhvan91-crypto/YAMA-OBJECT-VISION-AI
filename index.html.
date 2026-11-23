@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <title>YAMA Object Vision AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>YAMA AI</h1>
+    <p>OBJECT VISION SYSTEM 1.0</p>
+  </header>
+
+  <main>
+    <section class="camera">
+      <video id="camera" autoplay playsinline muted></video>
+      <canvas id="overlay"></canvas>
+      <div id="status">Camera chưa khởi động</div>
+    </section>
+
+    <button id="startCamera">BẬT CAMERA</button>
+    <button id="stopCamera">TẮT CAMERA</button>
+
+    <section class="results">
+      <h2>Kết quả nhận diện</h2>
+      <p id="objectCount">Số vật thể: 0</p>
+      <ul id="objectList">
+        <li>Chưa có dữ liệu</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
