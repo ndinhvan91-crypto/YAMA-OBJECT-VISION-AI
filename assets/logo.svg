@@ -1,0 +1,19 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="100"
+        fill="#101827"/>
+  <path d="M100 130 L190 280 L256 160
+           L322 280 L412 130"
+        fill="none" stroke="#42e8c5"
+        stroke-width="28" stroke-linecap="round"
+        stroke-linejoin="round"/>
+  <circle cx="256" cy="350" r="48"
+          fill="none" stroke="#42e8c5"
+          stroke-width="18"/>
+  <path d="M232 350 L280 350 M256 326 L256 374"
+        stroke="#42e8c5" stroke-width="12"/>
+  <text x="256" y="455" text-anchor="middle"
+        font-size="42" font-weight="bold"
+        fill="white">YAMA AI</text>
+</svg>
