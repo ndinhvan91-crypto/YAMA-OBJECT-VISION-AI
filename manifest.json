@@ -1,0 +1,21 @@
+
+{
+  "id": "yama-human-vision-ai",
+  "name": "YAMA Human Vision AI",
+  "short_name": "YAMA AI",
+  "description": "Cyberpunk AI Human Vision System",
+  "start_url": "./cyberpunk.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050510",
+  "theme_color": "#050510",
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
